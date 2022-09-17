@@ -15,40 +15,30 @@
     text-decoration: none;
 }
 
+.header-list .header-link.current {
+color: #2196F3;
+}
 body {font-family: 'Roboto', 'sans-serif';
     background-color: #FFFFFF;}
 
 /*------header---------*/
-.logo-blue {
-    font-family: var(--second-font);
+.logo {font-family: var(--second-font);
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: var(--typical-lh);
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03em;}
+
+.logo-blue {
     color: #2196F3;}
 
 .logo-black {
-    font-family: var(--second-font);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: var(--typical-lh);
-    letter-spacing: 0.03em;
     color: #000000;}
 
 .logo-white {
-    font-family: var(--second-font);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: var(--typical-lh);
-    letter-spacing: 0.03em;
     color: #FFFFFF;}
 
 .header-link {
-    /* font-family: 'Roboto';
-    font-style: normal; */
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -56,8 +46,6 @@ body {font-family: 'Roboto', 'sans-serif';
     color: #212121;}
 
 .contacts-link {
-    /* font-family: 'Roboto';
-    font-style: normal; */
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -72,8 +60,6 @@ body {font-family: 'Roboto', 'sans-serif';
 /* --------HERO---------- */
 .hero {background-color: #2F303A;}
 .hero-title {
-    /* font-family: 'Roboto';
-    font-style: normal; */
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -111,8 +97,7 @@ body {font-family: 'Roboto', 'sans-serif';
     overflow: hidden;
 }
 .adv-title {
-    /* font-family: 'Roboto';
-    font-style: normal; */
+    
     font-weight: 700;
     font-size: 14px;
     line-height: 1.42;
@@ -121,8 +106,7 @@ body {font-family: 'Roboto', 'sans-serif';
     color: var(--thrid-title-color);}
 
 .adv-text {
-    /* font-family: 'Roboto';
-    font-style: normal; */
+    
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -131,8 +115,7 @@ body {font-family: 'Roboto', 'sans-serif';
 
 /* -------------work-------------- */
 .work-title {
-    /* font-family: 'Roboto';
-    font-style: normal; */
+    
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -145,8 +128,7 @@ body {font-family: 'Roboto', 'sans-serif';
     background-color: #F5F4FA;
 }
 .command-title {
-    /* font-family: 'Roboto';
-    font-style: normal; */
+   
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -155,8 +137,7 @@ body {font-family: 'Roboto', 'sans-serif';
     color: var(--second-title-color);}
 
 .command-name {
-    /* font-family: 'Roboto';
-    font-style: normal; */
+   
     font-weight: 500;
     font-size: 16px;
     line-height: var(--typical-lh);
@@ -165,8 +146,7 @@ body {font-family: 'Roboto', 'sans-serif';
     color: var(--thrid-title-color);}
 
 .command-major {
-    /* font-family: 'Roboto';
-    font-style: normal; */
+    
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
@@ -182,18 +162,11 @@ body {font-family: 'Roboto', 'sans-serif';
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;}
+
 .footer-adress {
-    /* font-family: 'Roboto'; */
-    
     color: #FFFFFF;}
 
 .footer-link {
-    /* font-family: 'Roboto'; */
-    /* font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em; */
     color: rgba(255, 255, 255, 0.6);}
 
     /* ----------Portfolio--------- */
@@ -208,6 +181,7 @@ body {font-family: 'Roboto', 'sans-serif';
     letter-spacing: 0.03em;
     color: #212121;
     background-color: #F5F4FA;
+    border-radius: 4px;
         
 }
 
@@ -217,8 +191,7 @@ body {font-family: 'Roboto', 'sans-serif';
 }
 
 .galery-title {
-    /* font-family: 'Roboto';
-    font-style: normal; */
+   
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -227,8 +200,7 @@ body {font-family: 'Roboto', 'sans-serif';
 }
 
 .galery-text {
-    /* font-family: 'Roboto';
-    font-style: normal; */
+   
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
